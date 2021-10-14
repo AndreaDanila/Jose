@@ -1,0 +1,15 @@
+15 oct
+
+Explicación Loops, condicionales y colecciones
+Entrega de Calculadora 
+
+18 prueba en clase deejercicios C#
+
+19 Octubre
+Explicación Clases y Objetos (antes de esta explicación todos han de haber llegado al final del módulo 1)
+Resolución de preguntas
+
+20 Planteamiento de la práctica de Alumnos (parte 1 sin objetos)
+21 Resolución de la parte 1 y planteamiento de la parte 2 (con clases y objetos, prueba final de módulo)
+25 Entrega de la parte 2
+26 preguntas generales y resolución de la parte 2
