@@ -1,0 +1,111 @@
+<script>
+
+var Console = {};
+Console.WriteLine = function(msg)
+{
+    console.log(msg);
+}
+
+function Main(args)
+{
+    var name = "Jose";
+    var surname1 = "Freire";
+    var surname2 = "Martín";
+
+    var year = 1978;
+    var month = 12;
+    var day = 15;
+
+    ExecutePhase1();
+    ExecutePhase2(year);
+    ExecutePhase3(year);
+    ExecutePhase4(name, surname1, surname2, year, month, day);
+}
+
+function ExecutePhase1()
+{
+    Console.WriteLine("Fase 1");
+    var name = "Jose";
+    var surname1 = "Freire";
+    var surname2 = "Martín";
+
+    var year = 1978;
+    var month = 12;
+    var day = 15;
+
+    Console.WriteLine(name + " " + surname1 + " " + surname2);
+    Console.WriteLine(`${name} ${surname1} ${surname2}`);
+
+    Console.WriteLine(day + "/" + month + "/" + year);
+    Console.WriteLine(`${day}/${month}/${year}`);
+}
+
+function ExecutePhase2(bornYear)
+{
+    Console.WriteLine("Fase 2");
+
+    const firstYear = 1948;
+    const jump = 4;
+
+
+    //forma 1
+    var counter = 0;
+
+    for(var i = firstYear; i <= bornYear; i++)
+    {
+        var dif = i - firstYear;
+        var calc = dif - (jump) * counter;
+        
+        if (calc == jump)
+        {
+            counter++;
+        }
+    }
+
+    Console.WriteLine(counter);
+
+    //forma 2
+    var counter2 = 0;
+    for (var i = firstYear  + 1; i <= bornYear; i+=jump)
+    {
+        counter2++;
+    }
+    Console.WriteLine(counter2);
+
+    //forma3
+    var div = (bornYear - firstYear) / jump;
+    var mod = ((bornYear - firstYear) % jump)/10;
+    var counter3 = (div - mod);
+
+    Console.WriteLine(`div:${div} mod:${mod} total years:${counter3}`);
+}
+
+function ExecutePhase3(bornYear)
+{
+    Console.WriteLine("Fase 3");
+
+    const firstYear = 1948;
+    const jump = 4;
+
+    for (var i = firstYear; i <= bornYear; i++)
+    {
+        var isLeap = ((i - firstYear) % jump) == 0;
+        var msg = isLeap ? "bisiesto" : "normal";
+
+        Console.WriteLine(`el año:${i} es ${msg}`);
+    }
+}
+
+function ExecutePhase4(name, surname1, surname2, year, month, day)
+{
+    var fullName = `${name} ${surname1} ${surname2}`;
+    var birthDate = `${day}/${month}/${year}`;
+
+    var isLeap = ((year) % 4) == 0;
+    var msg = fullName + " " + birthDate + " y el año " + (isLeap ? "bisiesto" : "normal");
+    Console.WriteLine(msg);
+}
+
+Main();
+
+</script>
