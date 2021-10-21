@@ -8,42 +8,54 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid Margin="20">
 
-        <Grid.RowDefinitions>
+        <TabControl>
+            <TabItem x:Name="Calculadora">
+                <Grid>
+                    <Grid.RowDefinitions>
 
-            <RowDefinition Height="50"></RowDefinition>
-            <RowDefinition Height="50"></RowDefinition>
-            <RowDefinition Height="50"></RowDefinition>
-            <RowDefinition Height="50"></RowDefinition>
-            <RowDefinition Height="*"></RowDefinition>
-            
-        </Grid.RowDefinitions>
+                        <RowDefinition Height="50"></RowDefinition>
+                        <RowDefinition Height="50"></RowDefinition>
+                        <RowDefinition Height="50"></RowDefinition>
+                        <RowDefinition Height="50"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
 
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="300"></ColumnDefinition>
-            <ColumnDefinition Width="*"></ColumnDefinition>            
-        </Grid.ColumnDefinitions>
+                    </Grid.RowDefinitions>
 
-        <Label x:Name="LbNum1" Grid.Row="0" Grid.Column="0" Content="Input number 1" FontSize="26"></Label>
-        <TextBox x:Name="TbNum1" Grid.Row="0" Grid.Column="1" Margin="5"></TextBox>
-        <Label x:Name="LbNum2" Grid.Row="1" Grid.Column="0" Content="Input number 2" FontSize="26"></Label>
-        <TextBox x:Name="TbNum2" Grid.Row="1" Grid.Column="1" Margin="5"></TextBox>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="300"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
 
-        <Grid Grid.Row="2" Grid.Column="1">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition></ColumnDefinition>
-                <ColumnDefinition></ColumnDefinition>
-                <ColumnDefinition></ColumnDefinition>
-                <ColumnDefinition></ColumnDefinition>
-            </Grid.ColumnDefinitions>
+                    <Label x:Name="LbNum1" Grid.Row="0" Grid.Column="0" Content="Input number 1" FontSize="26"></Label>
+                    <TextBox x:Name="TbNum1" Grid.Row="0" Grid.Column="1" Margin="5"></TextBox>
+                    <Label x:Name="LbNum2" Grid.Row="1" Grid.Column="0" Content="Input number 2" FontSize="26"></Label>
+                    <TextBox x:Name="TbNum2" Grid.Row="1" Grid.Column="1" Margin="5"></TextBox>
 
-            <Button x:Name="BtAdd" Grid.Column="0" Content="+" FontSize="26" Margin="5" Click="BtAdd_Click"></Button>
-            <Button x:Name="BtSub" Grid.Column="1" Content="-" FontSize="26" Margin="5"></Button>
-            <Button x:Name="BtMult" Grid.Column="2" Content="x" FontSize="26" Margin="5"></Button>
-            <Button x:Name="BtDiv" Grid.Column="3" Content="/" FontSize="26" Margin="5"></Button>
-        </Grid>
+                    <Grid Grid.Row="2" Grid.Column="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
 
-        <Label Grid.Row="3" Grid.Column="0" Content="Resultado:" FontSize="26"></Label>
-        <Label x:Name="LbOutput" Grid.Row="3" Grid.Column="1" Content="" FontSize="26"></Label>
+                        <Button x:Name="BtAdd" Grid.Column="0" Content="+" FontSize="26" Margin="5" Click="BtAdd_Click"></Button>
+                        <Button x:Name="BtSub" Grid.Column="1" Content="-" FontSize="26" Margin="5"></Button>
+                        <Button x:Name="BtMult" Grid.Column="2" Content="x" FontSize="26" Margin="5"></Button>
+                        <Button x:Name="BtDiv" Grid.Column="3" Content="/" FontSize="26" Margin="5"></Button>
+                    </Grid>
+
+                    <Label Grid.Row="3" Grid.Column="0" Content="Resultado:" FontSize="26"></Label>
+                    <Label x:Name="LbOutput" Grid.Row="3" Grid.Column="1" Content="" FontSize="26"></Label>
+                </Grid>
+            </TabItem>
+
+            <TabItem x:Name="Otro">
+
+            </TabItem>
+        </TabControl>
+
+        
 
     </Grid>
 </Window>

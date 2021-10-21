@@ -1,0 +1,16 @@
+C:\Dev\Training\CursoAspNET\Tema 1. Clases y Objetos\ClassesAndObjects\ClassesAndObjects\bin\Debug\net5.0\ClassesAndObjects.exe
+C:\Dev\Training\CursoAspNET\Tema 1. Clases y Objetos\ClassesAndObjects\ClassesAndObjects\bin\Debug\net5.0\ClassesAndObjects.deps.json
+C:\Dev\Training\CursoAspNET\Tema 1. Clases y Objetos\ClassesAndObjects\ClassesAndObjects\bin\Debug\net5.0\ClassesAndObjects.runtimeconfig.json
+C:\Dev\Training\CursoAspNET\Tema 1. Clases y Objetos\ClassesAndObjects\ClassesAndObjects\bin\Debug\net5.0\ClassesAndObjects.runtimeconfig.dev.json
+C:\Dev\Training\CursoAspNET\Tema 1. Clases y Objetos\ClassesAndObjects\ClassesAndObjects\bin\Debug\net5.0\ClassesAndObjects.dll
+C:\Dev\Training\CursoAspNET\Tema 1. Clases y Objetos\ClassesAndObjects\ClassesAndObjects\bin\Debug\net5.0\ref\ClassesAndObjects.dll
+C:\Dev\Training\CursoAspNET\Tema 1. Clases y Objetos\ClassesAndObjects\ClassesAndObjects\bin\Debug\net5.0\ClassesAndObjects.pdb
+C:\Dev\Training\CursoAspNET\Tema 1. Clases y Objetos\ClassesAndObjects\ClassesAndObjects\obj\Debug\net5.0\ClassesAndObjects.csproj.AssemblyReference.cache
+C:\Dev\Training\CursoAspNET\Tema 1. Clases y Objetos\ClassesAndObjects\ClassesAndObjects\obj\Debug\net5.0\ClassesAndObjects.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Training\CursoAspNET\Tema 1. Clases y Objetos\ClassesAndObjects\ClassesAndObjects\obj\Debug\net5.0\ClassesAndObjects.AssemblyInfoInputs.cache
+C:\Dev\Training\CursoAspNET\Tema 1. Clases y Objetos\ClassesAndObjects\ClassesAndObjects\obj\Debug\net5.0\ClassesAndObjects.AssemblyInfo.cs
+C:\Dev\Training\CursoAspNET\Tema 1. Clases y Objetos\ClassesAndObjects\ClassesAndObjects\obj\Debug\net5.0\ClassesAndObjects.csproj.CoreCompileInputs.cache
+C:\Dev\Training\CursoAspNET\Tema 1. Clases y Objetos\ClassesAndObjects\ClassesAndObjects\obj\Debug\net5.0\ClassesAndObjects.dll
+C:\Dev\Training\CursoAspNET\Tema 1. Clases y Objetos\ClassesAndObjects\ClassesAndObjects\obj\Debug\net5.0\ref\ClassesAndObjects.dll
+C:\Dev\Training\CursoAspNET\Tema 1. Clases y Objetos\ClassesAndObjects\ClassesAndObjects\obj\Debug\net5.0\ClassesAndObjects.pdb
+C:\Dev\Training\CursoAspNET\Tema 1. Clases y Objetos\ClassesAndObjects\ClassesAndObjects\obj\Debug\net5.0\ClassesAndObjects.genruntimeconfig.cache
