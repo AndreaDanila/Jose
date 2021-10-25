@@ -64,21 +64,31 @@ namespace Calculadora
 
         public void Example()
         {
+            // creamos un estudiante
             var student = new Student
             {
                 Name = "Pepe",
                 Dni = "A1"
             };
+            // lo guardamos en su repositorio o base de datos
             Database.Students.Add(student.Dni, student);
 
+            // creamos una asignatura
             var subject = new Subject
             {
                 Name = "Matemáticas"
             };
+
+            // la guardamos en su repositorio
             Database.Materias.Add(subject.Name, subject);
             
+            // el estudiante hace un examen y le da la información
+            student.HacerExamen(4.5, "Matemáticas");
+
+            // el estudiante repite el examen y le da la información
             student.HacerExamen(8, "Matemáticas");
 
+            // obtenemos la lista de todos los examenes para ese alumno en concreto
             var studentExams = student.MyExams;
         }
     }
