@@ -8,7 +8,7 @@ namespace EjemploCrud.Lib.DAL
     public static class StudentsRepository
     {
         private static Dictionary<Guid, Student> Students = new Dictionary<Guid, Student>();
-    
+
         public static List<Student> GetAll()
         {
             // opción 1: a pelo
@@ -22,7 +22,8 @@ namespace EjemploCrud.Lib.DAL
             {
                 // y sacamos su valor (objeto de tipo Student)
                 // y lo metemos en la lista de salida
-                output.Add(item.Value);
+                var student = item.Value;
+                output.Add(student);
             }
 
             // devolvemos la lista
@@ -46,6 +47,19 @@ namespace EjemploCrud.Lib.DAL
         public static Student GetByDni(string dni)
         {
             // todo:
+            foreach (var item in Students)
+            {
+                var student = item.Value;
+                if (student.Dni == dni)
+                    return student;
+            }
+
+            return default(Student);
+        }
+
+        public static List<Student> GetByName(string name)
+        {
+            //todo:
         }
 
         public static bool Add(Student student)
