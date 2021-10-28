@@ -59,7 +59,18 @@ namespace EjemploCrud.Lib.DAL
 
         public static List<Student> GetByName(string name)
         {
-            //todo:
+            var output = new List<Student>();
+
+            foreach (var item in Students)
+            {
+                var student = item.Value;
+
+                if (student.Name == name)
+                    output.Add(student);
+            }
+
+            // devolvemos la lista
+            return output;
         }
 
         public static bool Add(Student student)
