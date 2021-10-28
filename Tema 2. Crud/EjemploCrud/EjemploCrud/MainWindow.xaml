@@ -1,0 +1,34 @@
+﻿<Window x:Class="EjemploCrud.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EjemploCrud"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Label Content="Dni" Grid.Row="0" Grid.Column="0" FontSize="22"></Label>
+        <TextBox x:Name="TbDni" Grid.Row="0" Grid.Column="1" Margin="2"></TextBox>
+
+        <Label Content="Name" Grid.Row="1" Grid.Column="0" FontSize="22"></Label>
+        <TextBox x:Name="TbName" Grid.Row="1" Grid.Column="1" Margin="2"></TextBox>
+
+        <Label Content="Email" Grid.Row="2" Grid.Column="0" FontSize="22"></Label>
+        <TextBox x:Name="TbEmail" Grid.Row="2" Grid.Column="1" Margin="2"></TextBox>
+
+        <Button x:Name="BtAdd" Content="Add Student" FontSize="22" Grid.Row="3" Grid.Column="0" Click="BtAdd_Click"></Button>
+
+    </Grid>
+</Window>

@@ -1,0 +1,16 @@
+C:\Dev\Training\CursoAspNET\Tema1.Academia\Academia\Academia\bin\Debug\net5.0\Academia.exe
+C:\Dev\Training\CursoAspNET\Tema1.Academia\Academia\Academia\bin\Debug\net5.0\Academia.deps.json
+C:\Dev\Training\CursoAspNET\Tema1.Academia\Academia\Academia\bin\Debug\net5.0\Academia.runtimeconfig.json
+C:\Dev\Training\CursoAspNET\Tema1.Academia\Academia\Academia\bin\Debug\net5.0\Academia.runtimeconfig.dev.json
+C:\Dev\Training\CursoAspNET\Tema1.Academia\Academia\Academia\bin\Debug\net5.0\Academia.dll
+C:\Dev\Training\CursoAspNET\Tema1.Academia\Academia\Academia\bin\Debug\net5.0\ref\Academia.dll
+C:\Dev\Training\CursoAspNET\Tema1.Academia\Academia\Academia\bin\Debug\net5.0\Academia.pdb
+C:\Dev\Training\CursoAspNET\Tema1.Academia\Academia\Academia\obj\Debug\net5.0\Academia.csproj.AssemblyReference.cache
+C:\Dev\Training\CursoAspNET\Tema1.Academia\Academia\Academia\obj\Debug\net5.0\Academia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Training\CursoAspNET\Tema1.Academia\Academia\Academia\obj\Debug\net5.0\Academia.AssemblyInfoInputs.cache
+C:\Dev\Training\CursoAspNET\Tema1.Academia\Academia\Academia\obj\Debug\net5.0\Academia.AssemblyInfo.cs
+C:\Dev\Training\CursoAspNET\Tema1.Academia\Academia\Academia\obj\Debug\net5.0\Academia.csproj.CoreCompileInputs.cache
+C:\Dev\Training\CursoAspNET\Tema1.Academia\Academia\Academia\obj\Debug\net5.0\Academia.dll
+C:\Dev\Training\CursoAspNET\Tema1.Academia\Academia\Academia\obj\Debug\net5.0\ref\Academia.dll
+C:\Dev\Training\CursoAspNET\Tema1.Academia\Academia\Academia\obj\Debug\net5.0\Academia.pdb
+C:\Dev\Training\CursoAspNET\Tema1.Academia\Academia\Academia\obj\Debug\net5.0\Academia.genruntimeconfig.cache
