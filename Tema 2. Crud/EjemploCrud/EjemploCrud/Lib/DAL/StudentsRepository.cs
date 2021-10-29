@@ -120,8 +120,6 @@ namespace EjemploCrud.Lib.DAL
             if (student.Id != default(Guid))
             {
                 // todo bien porque no hay ningún Id
-                student.Id = Guid.NewGuid();
-
                 return StudentValidationsTypes.IdNotEmpty;
             }
             else if (!Student.ValidateDniFormat(student.Dni))
@@ -144,11 +142,8 @@ namespace EjemploCrud.Lib.DAL
                 return StudentValidationsTypes.WrongNameFormat;
             }
             else if (!Students.ContainsKey(student.Id))
-            {
-                // si student tiene un Id y no hay ninguno
-                // en la base de datos con ese Id
-                // lo permitimos, con lo cual sólo hay
-                // que añadir el estudiante a la base de datos
+            {                
+                student.Id = Guid.NewGuid();
                 Students.Add(student.Id, student);
 
                 return StudentValidationsTypes.Ok;

@@ -1,0 +1,64 @@
+﻿<UserControl x:Class="EjemploCrud.Views.StudentsView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:EjemploCrud.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Label Content="Dni" Grid.Row="0" Grid.Column="0" FontSize="22"></Label>
+        <TextBox x:Name="TbDni" Grid.Row="0" Grid.Column="1" Margin="2"></TextBox>
+
+        <Label Content="Name" Grid.Row="1" Grid.Column="0" FontSize="22"></Label>
+        <TextBox x:Name="TbName" Grid.Row="1" Grid.Column="1" Margin="2"></TextBox>
+
+        <Label Content="Email" Grid.Row="2" Grid.Column="0" FontSize="22"></Label>
+        <TextBox x:Name="TbEmail" Grid.Row="2" Grid.Column="1" Margin="2"></TextBox>
+
+        <Grid  Grid.Row="3" Grid.Column="0" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"></RowDefinition>
+                <RowDefinition Height="40"></RowDefinition>
+                <RowDefinition Height="40"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Button x:Name="BtClear" Content="Clear" FontSize="22" Grid.Row="0" Margin="1,1,1,0" Height="38" VerticalAlignment="Top" Click="BtClear_Click"></Button>
+            <Button x:Name="BtAdd" Content="Add Student" FontSize="22" Grid.Row="1" Click="BtAdd_Click" Margin="1"></Button>
+            <Button x:Name="BtSave" Content="Save Student" Visibility="Hidden"  FontSize="22" Grid.Row="2" Margin="1" Click="BtSave_Click"></Button>
+
+        </Grid>
+        <DataGrid x:Name="DgStudents" Grid.Row="3" Grid.Column="1" CanUserAddRows="false" IsReadOnly="True">
+            <DataGrid.Columns>
+                <DataGridTemplateColumn>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Click="BtSelect_Click">Select Student</Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button x:Name="BtDelete" Click="BtDelete_Click">Delete Student</Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+
+        </DataGrid>
+    </Grid>
+</UserControl>

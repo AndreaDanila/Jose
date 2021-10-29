@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
 C:\Dev\Training\CursoAspNET\Tema 2. Crud\EjemploCrud\EjemploCrud\App.xaml
-11407045341
+22098699829
 
-8399163265
+9979626444
 193-1891726104
-MainWindow.xaml;
+MainWindow.xaml;Views\StudentsView.xaml;
 
-False
+True
 
