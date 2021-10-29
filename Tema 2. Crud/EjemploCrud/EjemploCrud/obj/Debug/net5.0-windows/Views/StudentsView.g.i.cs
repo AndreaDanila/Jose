@@ -109,7 +109,7 @@ namespace EjemploCrud.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/EjemploCrud;component/views/studentsview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/EjemploCrud;V1.0.0.0;component/views/studentsview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\StudentsView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
