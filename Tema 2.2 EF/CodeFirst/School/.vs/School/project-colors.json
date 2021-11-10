@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "9be77e86-240e-4d19-a0f3-e78189780319": {
+      "ProjectGuid": "9be77e86-240e-4d19-a0f3-e78189780319",
+      "DisplayName": "School.UI.WPF.SQL",
+      "ColorIndex": 0
+    },
+    "0d8ffacf-95d6-45cc-aa17-bf72402ee0e6": {
+      "ProjectGuid": "0d8ffacf-95d6-45cc-aa17-bf72402ee0e6",
+      "DisplayName": "School.UI.WPF.MySQL.EFCore6",
+      "ColorIndex": 1
+    },
+    "2f1476c9-49b6-488a-ac67-c899474ab7ca": {
+      "ProjectGuid": "2f1476c9-49b6-488a-ac67-c899474ab7ca",
+      "DisplayName": "School.UI.WPF.MySQL",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 3
+}

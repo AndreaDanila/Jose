@@ -1,0 +1,9 @@
+C:\Dev\Training\CursoAspNET\Tema 2.3 Academia\Academia\Academy.Lib\bin\Debug\netstandard2.1\Academy.Lib.deps.json
+C:\Dev\Training\CursoAspNET\Tema 2.3 Academia\Academia\Academy.Lib\bin\Debug\netstandard2.1\Academy.Lib.dll
+C:\Dev\Training\CursoAspNET\Tema 2.3 Academia\Academia\Academy.Lib\bin\Debug\netstandard2.1\Academy.Lib.pdb
+C:\Dev\Training\CursoAspNET\Tema 2.3 Academia\Academia\Academy.Lib\obj\Debug\netstandard2.1\Academy.Lib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Training\CursoAspNET\Tema 2.3 Academia\Academia\Academy.Lib\obj\Debug\netstandard2.1\Academy.Lib.AssemblyInfoInputs.cache
+C:\Dev\Training\CursoAspNET\Tema 2.3 Academia\Academia\Academy.Lib\obj\Debug\netstandard2.1\Academy.Lib.AssemblyInfo.cs
+C:\Dev\Training\CursoAspNET\Tema 2.3 Academia\Academia\Academy.Lib\obj\Debug\netstandard2.1\Academy.Lib.csproj.CoreCompileInputs.cache
+C:\Dev\Training\CursoAspNET\Tema 2.3 Academia\Academia\Academy.Lib\obj\Debug\netstandard2.1\Academy.Lib.dll
+C:\Dev\Training\CursoAspNET\Tema 2.3 Academia\Academia\Academy.Lib\obj\Debug\netstandard2.1\Academy.Lib.pdb

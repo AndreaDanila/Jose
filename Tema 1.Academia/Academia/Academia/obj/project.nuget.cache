@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "PV8zLiVBNO2q/TIvV8XMEnK4do3YcQVuIw/8YUrcrVSxd0nP0uhBJH8d7Olw7Ts4Vk2NiruAWZLNI/DSoC4BVg==",
+  "success": true,
+  "projectFilePath": "C:\\Dev\\Training\\CursoAspNET\\Tema1.Academia\\Academia\\Academia\\Academia.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\josef\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}

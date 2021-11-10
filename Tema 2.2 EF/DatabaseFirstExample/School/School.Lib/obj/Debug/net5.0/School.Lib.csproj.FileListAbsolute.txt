@@ -1,0 +1,12 @@
+C:\Dev\Training\CursoAspNET\Tema2. EF\DatabaseFirstExample\School\School.Lib\bin\Debug\net5.0\School.Lib.deps.json
+C:\Dev\Training\CursoAspNET\Tema2. EF\DatabaseFirstExample\School\School.Lib\bin\Debug\net5.0\School.Lib.dll
+C:\Dev\Training\CursoAspNET\Tema2. EF\DatabaseFirstExample\School\School.Lib\bin\Debug\net5.0\ref\School.Lib.dll
+C:\Dev\Training\CursoAspNET\Tema2. EF\DatabaseFirstExample\School\School.Lib\bin\Debug\net5.0\School.Lib.pdb
+C:\Dev\Training\CursoAspNET\Tema2. EF\DatabaseFirstExample\School\School.Lib\obj\Debug\net5.0\School.Lib.csproj.AssemblyReference.cache
+C:\Dev\Training\CursoAspNET\Tema2. EF\DatabaseFirstExample\School\School.Lib\obj\Debug\net5.0\School.Lib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Training\CursoAspNET\Tema2. EF\DatabaseFirstExample\School\School.Lib\obj\Debug\net5.0\School.Lib.AssemblyInfoInputs.cache
+C:\Dev\Training\CursoAspNET\Tema2. EF\DatabaseFirstExample\School\School.Lib\obj\Debug\net5.0\School.Lib.AssemblyInfo.cs
+C:\Dev\Training\CursoAspNET\Tema2. EF\DatabaseFirstExample\School\School.Lib\obj\Debug\net5.0\School.Lib.csproj.CoreCompileInputs.cache
+C:\Dev\Training\CursoAspNET\Tema2. EF\DatabaseFirstExample\School\School.Lib\obj\Debug\net5.0\School.Lib.dll
+C:\Dev\Training\CursoAspNET\Tema2. EF\DatabaseFirstExample\School\School.Lib\obj\Debug\net5.0\ref\School.Lib.dll
+C:\Dev\Training\CursoAspNET\Tema2. EF\DatabaseFirstExample\School\School.Lib\obj\Debug\net5.0\School.Lib.pdb

@@ -1,0 +1,13 @@
+C:\Dev\Training\CursoAspNET\Tema2. EF\CodeFirst\WpfApp1\Academy.Lib\bin\Debug\net6.0\Academy.Lib.deps.json
+C:\Dev\Training\CursoAspNET\Tema2. EF\CodeFirst\WpfApp1\Academy.Lib\bin\Debug\net6.0\Academy.Lib.dll
+C:\Dev\Training\CursoAspNET\Tema2. EF\CodeFirst\WpfApp1\Academy.Lib\bin\Debug\net6.0\ref\Academy.Lib.dll
+C:\Dev\Training\CursoAspNET\Tema2. EF\CodeFirst\WpfApp1\Academy.Lib\bin\Debug\net6.0\Academy.Lib.pdb
+C:\Dev\Training\CursoAspNET\Tema2. EF\CodeFirst\WpfApp1\Academy.Lib\obj\Debug\net6.0\Academy.Lib.GlobalUsings.g.cs
+C:\Dev\Training\CursoAspNET\Tema2. EF\CodeFirst\WpfApp1\Academy.Lib\obj\Debug\net6.0\Academy.Lib.csproj.AssemblyReference.cache
+C:\Dev\Training\CursoAspNET\Tema2. EF\CodeFirst\WpfApp1\Academy.Lib\obj\Debug\net6.0\Academy.Lib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Training\CursoAspNET\Tema2. EF\CodeFirst\WpfApp1\Academy.Lib\obj\Debug\net6.0\Academy.Lib.AssemblyInfoInputs.cache
+C:\Dev\Training\CursoAspNET\Tema2. EF\CodeFirst\WpfApp1\Academy.Lib\obj\Debug\net6.0\Academy.Lib.AssemblyInfo.cs
+C:\Dev\Training\CursoAspNET\Tema2. EF\CodeFirst\WpfApp1\Academy.Lib\obj\Debug\net6.0\Academy.Lib.csproj.CoreCompileInputs.cache
+C:\Dev\Training\CursoAspNET\Tema2. EF\CodeFirst\WpfApp1\Academy.Lib\obj\Debug\net6.0\Academy.Lib.dll
+C:\Dev\Training\CursoAspNET\Tema2. EF\CodeFirst\WpfApp1\Academy.Lib\obj\Debug\net6.0\ref\Academy.Lib.dll
+C:\Dev\Training\CursoAspNET\Tema2. EF\CodeFirst\WpfApp1\Academy.Lib\obj\Debug\net6.0\Academy.Lib.pdb
