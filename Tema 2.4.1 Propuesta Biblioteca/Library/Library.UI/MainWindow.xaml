@@ -1,0 +1,35 @@
+﻿<Window x:Class="Library.UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Library.UI"
+        xmlns:views="clr-namespace:Library.UI.Views"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid x:Name="DivLogin">
+            <views:LoginView x:Name="LoginView"></views:LoginView>
+        </Grid>
+        <Grid x:Name="DivApp" Visibility="Hidden">
+            <TabControl>
+                <TabItem Header="Clients">
+                    <views:ClientsView x:Name="ClientsView"></views:ClientsView>
+                </TabItem>
+                <TabItem Header="Books">
+                    Aquí van los libros
+                    
+                </TabItem>
+
+                <TabItem Header="Book Copies">
+                    Aquí van los ejemplares
+
+                </TabItem>
+                <TabItem Header="Loans">
+                    <views:LoansView x:Name="LoansView"></views:LoansView>
+
+                </TabItem>
+            </TabControl>
+        </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,37 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.1/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.1": {},
+    ".NETStandard,Version=v2.1/": {
+      "Library.Lib/1.0.0": {
+        "dependencies": {
+          "Common.Lib": "1.0.0"
+        },
+        "runtime": {
+          "Library.Lib.dll": {}
+        }
+      },
+      "Common.Lib/1.0.0": {
+        "runtime": {
+          "Common.Lib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Library.Lib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Common.Lib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

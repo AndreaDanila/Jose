@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "11edbe63-ef39-4c90-8fd2-cf844fbdb90c": {
+      "ProjectGuid": "11edbe63-ef39-4c90-8fd2-cf844fbdb90c",
+      "DisplayName": "Library.Lib",
+      "ColorIndex": 0
+    },
+    "37bc1507-fc69-445d-815b-3eec9c571d8e": {
+      "ProjectGuid": "37bc1507-fc69-445d-815b-3eec9c571d8e",
+      "DisplayName": "Library.Lib",
+      "ColorIndex": 1
+    },
+    "22f8d879-3af1-484b-b2dd-23e22129b566": {
+      "ProjectGuid": "22f8d879-3af1-484b-b2dd-23e22129b566",
+      "DisplayName": "Common.Lib",
+      "ColorIndex": 2
+    },
+    "0fefb752-ab81-446c-8ea3-06feadac077c": {
+      "ProjectGuid": "0fefb752-ab81-446c-8ea3-06feadac077c",
+      "DisplayName": "Library.UI",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 4
+}

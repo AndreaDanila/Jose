@@ -1,0 +1,20 @@
+﻿Library.UI
+
+
+winexe
+C#
+.cs
+C:\Dev\Training\CursoAspNET\Tema 2.4.1 Propuesta Biblioteca\Library\Library.UI\obj\Debug\net6.0-windows\
+Library.UI
+none
+false
+TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+C:\Dev\Training\CursoAspNET\Tema 2.4.1 Propuesta Biblioteca\Library\Library.UI\App.xaml
+4-890449048
+
+17-1423435611
+210-729935240
+MainWindow.xaml;Views\ClientsView.xaml;Views\LoansView.xaml;Views\LoginView.xaml;
+
+False
+
