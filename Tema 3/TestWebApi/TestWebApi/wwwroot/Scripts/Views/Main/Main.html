@@ -1,0 +1,30 @@
+<style>
+    #MainView
+    {
+        height: 100vh;
+        background-color:#F8F9FA;
+    }
+
+
+</style>
+
+<div id="MainView" class="container-fluid">
+
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a ng-class="vm.LoginNavClass" aria-current="page" ng-click="vm.SelectLogin()">Login</a>
+        </li>
+        <li class="nav-item">
+          <a ng-class="vm.ClientsNavClass" ng-click="vm.SelectClients()">Clients</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+
+      <div ng-show="vm.IsLoginViewActive"> estamos en login</div>
+      <clients ng-if="vm.IsClientsViewActive"></clients>
+</div>

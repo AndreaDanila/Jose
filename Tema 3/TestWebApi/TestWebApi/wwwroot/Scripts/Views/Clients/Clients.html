@@ -1,0 +1,20 @@
+<style>
+    #ClientsView
+    {
+        height: 90vh;
+        margin: 20;
+        background-color:#6fb0f1;
+    }
+
+
+</style>
+
+<div id="ClientsView" class="container-fluid">
+
+    Estamos en clientes
+
+    <li ng-repeat="item in vm.Clients">
+
+        {{item.email}} {{item.name}} {{item.id}}
+    </li>
+</div>

@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ff6a00;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+html {
+    height: 100vh;
+}
