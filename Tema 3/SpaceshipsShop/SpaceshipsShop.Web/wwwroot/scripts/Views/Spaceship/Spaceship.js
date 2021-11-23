@@ -6,10 +6,10 @@ class Spaceship
     {
         columnDefs : 
         [ 
-            {name: 'Brand', field: 'brand'},
-            {name: 'FTLFactor',  field: 'fTLFactor'},
-            {name: 'Color',  field: 'color'},
-            {name: 'PassengersCapacity',  field: 'passengersCapacity'},
+                { name: 'Brand', field: 'Brand'},
+                { name: 'FTLFactor', field: 'FTLFactor'},
+                { name: 'Color', field: 'Color'},
+                { name: 'PassengersCapacity', field: 'PassengersCapacity'},
         ],
         data : []
       };
