@@ -1,0 +1,10 @@
+C:\Dev\Training\CursoAspNET\Tema 3\SpaceshipsShop\SpaceshipsShop.Lib\bin\Debug\netstandard2.1\SpaceshipsShop.Lib.deps.json
+C:\Dev\Training\CursoAspNET\Tema 3\SpaceshipsShop\SpaceshipsShop.Lib\bin\Debug\netstandard2.1\SpaceshipsShop.Lib.dll
+C:\Dev\Training\CursoAspNET\Tema 3\SpaceshipsShop\SpaceshipsShop.Lib\bin\Debug\netstandard2.1\SpaceshipsShop.Lib.pdb
+C:\Dev\Training\CursoAspNET\Tema 3\SpaceshipsShop\SpaceshipsShop.Lib\obj\Debug\netstandard2.1\SpaceshipsShop.Lib.csproj.AssemblyReference.cache
+C:\Dev\Training\CursoAspNET\Tema 3\SpaceshipsShop\SpaceshipsShop.Lib\obj\Debug\netstandard2.1\SpaceshipsShop.Lib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Training\CursoAspNET\Tema 3\SpaceshipsShop\SpaceshipsShop.Lib\obj\Debug\netstandard2.1\SpaceshipsShop.Lib.AssemblyInfoInputs.cache
+C:\Dev\Training\CursoAspNET\Tema 3\SpaceshipsShop\SpaceshipsShop.Lib\obj\Debug\netstandard2.1\SpaceshipsShop.Lib.AssemblyInfo.cs
+C:\Dev\Training\CursoAspNET\Tema 3\SpaceshipsShop\SpaceshipsShop.Lib\obj\Debug\netstandard2.1\SpaceshipsShop.Lib.csproj.CoreCompileInputs.cache
+C:\Dev\Training\CursoAspNET\Tema 3\SpaceshipsShop\SpaceshipsShop.Lib\obj\Debug\netstandard2.1\SpaceshipsShop.Lib.dll
+C:\Dev\Training\CursoAspNET\Tema 3\SpaceshipsShop\SpaceshipsShop.Lib\obj\Debug\netstandard2.1\SpaceshipsShop.Lib.pdb

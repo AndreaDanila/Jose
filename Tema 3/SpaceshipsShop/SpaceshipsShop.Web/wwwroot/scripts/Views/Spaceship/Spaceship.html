@@ -1,0 +1,19 @@
+<style>
+    #SpaceshipView
+    {        
+        background-color: aliceblue;
+        height:600px;
+    }
+
+    .myGrid 
+    {
+        width: Calc(100% -40px);
+        height: Calc(100% - 40px);
+    }
+</style>
+
+
+<div id="SpaceshipView" class="container-fluid">
+    Spaceship View
+    <div ui-grid="vm.GridOptions" class="myGrid"></div>
+</div>
