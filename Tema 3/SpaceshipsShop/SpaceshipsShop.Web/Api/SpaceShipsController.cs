@@ -58,8 +58,23 @@ namespace SpaceshipsShop.Web.Api
 
         // POST api/<SpaceShipsController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public bool Post([FromBody] SpaceShip item)
         {
+            using(var dbContext = new SpaceShipsShopDbContext())
+            {
+                if (item.Id != default && dbContext.SpaceShips.Any(x=>x.Id == item.Id))
+                {
+                    return false;
+                }
+
+                if (item.Id == default)
+                    item.Id = Guid.NewGuid();
+
+                dbContext.Add(item);
+
+                dbContext.SaveChanges();
+                return true;
+            }
         }
 
         // PUT api/<SpaceShipsController>/5

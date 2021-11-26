@@ -1,11 +1,16 @@
 using Microsoft.AspNetCore.Http.Json;
 using System.Text.Json;
+using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers();
+builder.Services
+    .AddControllers()
+    // esto es para que no me ponga los json con la primera en minúscula
+    .AddJsonOptions(x => x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve);
+
 builder.Services.Configure<JsonOptions>(options =>
 {
     //options.SerializerOptions.PropertyNameCaseInsensitive = false;

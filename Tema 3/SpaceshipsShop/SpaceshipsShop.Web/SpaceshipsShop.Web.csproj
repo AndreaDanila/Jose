@@ -27,6 +27,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="wwwroot\scripts\Models\" />
     <Folder Include="wwwroot\scripts\Views\" />
   </ItemGroup>
 
